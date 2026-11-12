@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-10T23:10:42 IST" name="Suite" finished-at="2026-11-10T23:12:49 IST" duration-ms="127074">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" name="submitOrder" class="RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2026-11-10T23:10:42 IST" name="Submit Order Test" finished-at="2026-11-10T23:12:49 IST" duration-ms="126908">
+      <class name="RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:10:42 IST" name="launchApplication" finished-at="2026-11-10T23:11:36 IST" duration-ms="53653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:11:36 IST" name="submitOrder" data-provider="getData" finished-at="2026-11-10T23:11:54 IST" duration-ms="17499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dhaval@123, product=ADIDAS ORIGINAL, email=dhaval@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:11:54 IST" name="tearDown" finished-at="2026-11-10T23:12:07 IST" duration-ms="13388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:12:07 IST" name="launchApplication" finished-at="2026-11-10T23:12:27 IST" duration-ms="19598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:12:27 IST" name="submitOrder" data-provider="getData" finished-at="2026-11-10T23:12:45 IST" duration-ms="18308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dhaval@123, product=ZARA COAT 3, email=dhaval@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest@6989da5e]" started-at="2026-11-10T23:12:45 IST" name="tearDown" finished-at="2026-11-10T23:12:49 IST" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RahulSheetyAcademy.SeleniumFrameworkDesign_1.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2026-11-10T23:12:49 IST" name="Error Validation Test" finished-at="2026-11-10T23:12:49 IST" duration-ms="3">
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
